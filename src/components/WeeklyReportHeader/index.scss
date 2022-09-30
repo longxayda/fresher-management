@@ -1,0 +1,48 @@
+.wrapHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 50px 30px;
+    .headerLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        position: relative;
+        .selectClass {
+            position: absolute;
+            top: 0px;
+            left: 150px;
+            z-index: 1000;
+            width: 200px;
+            height: 45px;
+        }
+    }
+    .headerRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .btnSave {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .card .card-title {
+        color: #929292;
+        font-family: 'Lobster', cursive;
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 48px;
+        margin: 0 0 18px;
+        text-shadow: 1px 0 0 #fff;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}

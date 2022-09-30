@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Leave Request Request Modal render Request Modal's component correctly 1`] = `" <div class=\\"leave-request-modal\\"><button type=\\"button\\" class=\\"btn-fill btn btn-primary\\">Make leave request</button></div> "`;

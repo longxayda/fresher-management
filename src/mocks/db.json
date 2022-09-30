@@ -1,0 +1,96 @@
+{
+  "trainees": [
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 1
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 2
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 3
+    },
+    {
+      "ids": [3, 4, 5, 6, 3, 4, 5, 6, 3, 4, null],
+      "id": 4
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 5
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 6
+    },
+    {
+      "firstName": "Nguyen",
+      "lastName": "Van Loc",
+      "phone": "0343213213",
+      "mail": "vanloc@fpt.com",
+      "classId": "React01",
+      "university": "CNTT",
+      "faculty": "CNTT",
+      "englishLevel": "B2",
+      "major": "CNTT",
+      "graduateYear": 2020,
+      "fsuAllocated": "HoChiMinh",
+      "id": 7
+    }
+  ],
+  "class": ["React", "Java", ".Net"],
+  "grade": [],
+  "gradewithmonth": [],
+  "moduleTable": []
+}

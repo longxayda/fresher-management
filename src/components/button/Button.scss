@@ -1,0 +1,46 @@
+.danger,
+.primary,
+.success,
+.secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    min-width: 120px;
+    &.rounded {
+        border-radius: 20em !important;
+    }
+}
+
+.success {
+    background: #62ad53;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+}
+
+.danger {
+    box-shadow: 0 0.7em 1.5em -0.5em #a7142898;
+    background: linear-gradient(0deg, rgb(192, 47, 47) 0%, rgb(149, 3, 3) 100%);
+}
+
+.primary {
+    box-shadow: 0 0.7em 1.5em -0.5em #2434b398;
+    background: linear-gradient(0deg, rgb(47, 93, 192) 0%, rgb(3, 37, 149) 100%);
+}
+
+.secondary {
+    box-shadow: 0 0.7em 1.5em -0.5em #31313298;
+    background: linear-gradient(0deg, rgb(55, 55, 56) 0%, rgb(42, 43, 49) 100%);
+}

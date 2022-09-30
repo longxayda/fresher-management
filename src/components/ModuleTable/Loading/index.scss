@@ -1,0 +1,44 @@
+.loading-module {
+    position: relative;
+    z-index: 1000;
+    top: 20%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    div {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background: rgb(2, 0, 36);
+        background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(7, 58, 153, 1) 41%, rgba(5, 88, 173, 1) 52%, rgba(4, 121, 195, 1) 62%, rgba(4, 127, 199, 1) 77%, rgba(0, 212, 255, 1) 100%);
+        box-shadow: 0px 0px 18px 3px #b3b2d7;
+        animation: rotate 1s linear infinite;
+        transform-origin: center;
+        opacity: 0.8;
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

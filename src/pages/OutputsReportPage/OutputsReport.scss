@@ -1,0 +1,51 @@
+.outputReport {
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .headerLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .headerRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        input[type="text"] {
+            padding: 8px;
+            padding-left: 10px;
+            border: none;
+            border-radius: 7px;
+            background: #e3e5e6;
+        }
+    }
+    .actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .btnSave {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .card .card-title {
+        color: #939090;
+        font-family: 'Lobster', cursive;
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 48px;
+        margin: 0 0 18px;
+        text-shadow: 1px 0 0 #fff;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .card-header {
+        margin-bottom: 20px;
+    }
+}

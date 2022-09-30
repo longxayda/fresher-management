@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Ticket Application Modal render ContentHandle's component correctly 1`] = `" <div class=\\"ticket-application-modal\\"><div style=\\"color: rgb(0, 128, 255); cursor: pointer;\\"></div></div> "`;

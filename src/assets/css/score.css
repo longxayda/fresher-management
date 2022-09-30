@@ -1,0 +1,19 @@
+.score-modal .modal-dialog {
+  max-width: 80% !important;
+  top: 2rem;
+}
+.score-modal .modal-body {
+  height: 80vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.score1-modal .modal-dialog {
+  max-width: 8% !important;
+  top: -50%;
+}
+.score1-modal .modal-body {
+  height: 80vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}

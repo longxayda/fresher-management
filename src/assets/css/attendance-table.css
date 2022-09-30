@@ -1,0 +1,15 @@
+.attendSelectBoxes{
+    display: flex;
+}
+.form-box{
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3!important;
+    border-radius: 4px;
+    color: #565656;
+    height: 40px;
+    box-shadow: none;
+    font-weight: 400;
+}
+.fix-padding{
+    padding: 1rem!important;
+}

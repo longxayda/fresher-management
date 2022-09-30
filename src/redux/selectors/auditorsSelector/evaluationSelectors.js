@@ -1,0 +1,11 @@
+export const Class = (state) => state.evaluation.class;
+export const Session = (state) => state.evaluation.session;
+export const Classes = (state) => state.evaluation.classes;
+export const Trainees = (state) => state.evaluation.trainees;
+export const Sessions = (state) => state.evaluation.sessions;
+export const Detail = (state) => state.evaluation.evaluate;
+export const MaxPage = (state) => state.evaluation.maxPage;
+export const Trainee = (state) => state.evaluation.trainee;
+export const TraineeLoading = (state) => state.evaluation.traineeLoading;
+export const DetailLoading = (state) => state.evaluation.detailLoading;
+export const CurrentPage = (state) => state.evaluation.currentPage;

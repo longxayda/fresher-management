@@ -1,0 +1,80 @@
+.auth-container {
+  position: relative;
+	min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cccc url(../img/login-background.jpg) center no-repeat;
+  background-size: cover;
+}
+
+
+
+.auth-title {
+  background-color: #E36968;
+  z-index: 1;
+  position: absolute;
+  width: 335px;
+  height: 167px;
+  top: 40px;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.auth-title h3 {
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 31px;
+}
+
+.auth-form {
+  position: absolute;
+  width: 412px;
+  height: auto;
+  top: 120px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding: 30px 40px 0 0;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.auth-form-content {
+  padding: 22% 0 0 10%; 
+}
+
+
+.auth-button-submit{
+  text-align: center;
+  margin: 90px 0 30px 0;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+
+
+.btn-custom {
+  width: 220px;
+  height: 42px;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  color: #E36968;
+  border: 0px;
+}
+
+.font-icon-detail {
+  background-color: aqua;
+  height: 100px;
+}

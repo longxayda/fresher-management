@@ -1,0 +1,44 @@
+.heading {
+    font-weight: bold;
+}
+
+.planRow, .updateRow {
+    position: relative;
+}
+
+#updateBtn, #saveBtn, #cancelBtn, #planBtn {
+    width: 130px;
+}
+
+#planBtn {
+    position: absolute;
+    right: 35px;
+    top: -60px;
+}
+
+#updateBtn, #saveBtn, #cancelBtn {
+    position: absolute;
+    bottom: -10px;
+}
+
+#updateBtn, #cancelBtn {
+    right: 30px;
+}
+
+#saveBtn {
+    right: 180px;
+}
+
+.class-field {
+    font-weight: bold;
+    font-size: large;
+}
+
+input[type="date"] {
+    display: -webkit-inline-flex;
+    font-family: monospace;
+    overflow: hidden;
+    padding: 0;
+    -webkit-padding-start: 1px;
+    font-size: 20px;
+}

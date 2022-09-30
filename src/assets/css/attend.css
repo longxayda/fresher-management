@@ -1,0 +1,15 @@
+.attend-container{
+    background: #cccc url(../img/login-background.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attend-form {
+    padding: 0 30px 30px 30px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}

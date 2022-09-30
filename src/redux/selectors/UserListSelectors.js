@@ -1,0 +1,1 @@
+export const USER_LIST_SELECTOR = (state) => state.UserList;

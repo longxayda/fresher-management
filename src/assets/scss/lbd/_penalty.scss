@@ -1,0 +1,291 @@
+.dropdown-penalty-course,
+.dropdown-penalty-class {
+    margin-top: 5px;
+    position: relative;
+    user-select: none;
+
+    .dropdown-btn {
+        padding: 15px 20px;
+        background-color: #fff;
+        font-weight: bold;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .dropdown-item {
+        display: block;
+        box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+        cursor: pointer;
+        transition: all 0.2s;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        position: relative;
+    }
+
+    .dropdown-item:hover {
+        background: #f4f4f4;
+    }
+}
+.table-penalty {
+    tr {
+        td:last-child {
+            width: 250px;
+            align-content: center;
+            text-align: center;
+            margin-left: 15px;
+
+            i {
+                margin-left: 5px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+
+            i:active {
+                color: red;
+            }
+        }
+        th:last-child() {
+            width: auto;
+        }
+
+        th {
+            select {
+                display: block;
+                margin: 0 auto;
+                border: 1px solid #E3E3E3;
+                padding: 8px 12px;
+                border-radius: 4px;
+                color: #565656;
+                height: 40px;
+            }
+        }
+    }
+
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .heading {
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        margin-top: 0;
+    }
+}
+.ButtonAddPenalty {
+    border: 1px solid #fff;
+    background: #03dbfc;
+    background: #4091e2;
+    padding: 5px 20px;
+    margin: auto 75px auto auto;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px #fff;
+    transition: all 0.2s;
+    color: #1a1a3b;
+
+    span {
+        line-height: 20px;
+        margin-left: 5px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    i {
+        color: #fff;
+    }
+}
+.ButtonAddPenalty:hover {
+    box-shadow: 3px 3px #aaa;
+}
+.large {
+    width: 45rem;
+}
+.paginationPenalty {
+    justify-content: center;
+    align-items: center;
+
+    .paginationButton {
+        margin: auto 0;
+        margin-left: 5px;
+        font-size: 13px;
+        border-radius: 13px;
+        border-color: #fff;
+        height: 28px;
+        box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .paginationData {
+        margin: 15px;
+        color: #475f7b;
+        font-size: 14px;
+        font-weight: 800;
+
+        .goToPage {
+            width: 100px;
+            margin: 6px;
+            height: 28px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    .showPagination {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .selectShowPagination {
+        height: 48px;
+        margin-left: 6px;
+        border-radius: 4px;
+        padding: 3px;
+
+        option {
+            line-height: 18px;
+            font-size: 16px;
+            color: #475f7b;
+        }
+
+        option::selection {
+            border: 1px solid #03dbfc;
+        }
+    }
+}
+h4 {
+    margin: 0;
+}
+.tableDetail {
+    tr {
+        td {
+            text-align: center;
+        }
+    }
+}
+.filterMonthDetail {
+    margin-bottom: 10px;
+}
+.updateDetail {
+    border: 2px solid #3472F7;
+    background: #fff;
+    padding: 3px 7px 3px 8px;
+
+    i {
+        cursor: pointer;
+        color: #3472F7;
+    }
+
+    i:active {
+        color: red;
+    }
+
+    cursor: pointer;
+}
+.deleteDetail {
+    border: 2px solid #EE2D20;
+    background: #fff;
+    padding: 3px 7px;
+    margin-left: 5px;
+
+    i {
+        cursor: pointer;
+        color: #EE2D20;
+    }
+
+    i:active {
+        color: red;
+    }
+
+    cursor: pointer;
+}
+.viewDetail {
+    border: 2px solid #333;
+    background: #fff;
+    padding: 3px 7px 3px 8px;
+    border-radius: 5px;
+
+    i {
+        cursor: pointer;
+        color: #3472F7;
+    }
+
+    i:active {
+        color: #3472F7;
+    }
+
+    cursor: pointer;
+}
+.formReason {
+    height: auto;
+}
+.failToFetch {
+    margin-top: 15px;
+}
+.fontType {
+    font-size: 15px;
+    width: 70px;
+}
+.loader {
+    border: 3px solid rgba(0, 0, 0, .1);
+    border-top-color: blue;
+    border-left-color: blue;
+    border-right-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+.processing{
+    border: 3px solid rgba(0, 0, 0, .1);
+    border-top-color: blue;
+    border-left-color: blue;
+    width: 20px;
+    height: 20px;
+    margin-top:-14px;
+    margin-left: 5px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.center-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.position-action-delete {
+    margin-right: 8px;
+}
+.flexCenter {
+    display: flex;
+    align-items: center;
+}
+.searchText {
+    font-size: 20px;
+}
+.searchInputTablePenalty {
+    margin-left: 7px;
+}
+.flex {
+    display: flex;
+}
+.selectPenalty {
+    width: auto;
+}
+.justifyContentCenter {
+    justify-content: center;
+}

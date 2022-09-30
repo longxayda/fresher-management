@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test components AddUser Test render correctly without props 1`] = `
+Array [
+  <button
+    className="btn-fill btn btn-danger"
+    disabled={false}
+    id="deleteSelectedBtn"
+    onClick={[Function]}
+    style={
+      Object {
+        "marginLeft": 10,
+        "width": 130,
+      }
+    }
+    type="button"
+  >
+    <i
+      className="fas fa-trash"
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+    />
+    Delete
+     
+    1
+  </button>,
+  <div />,
+]
+`;

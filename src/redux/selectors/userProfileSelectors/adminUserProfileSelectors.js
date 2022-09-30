@@ -1,0 +1,1 @@
+export const adminUserProfileSelector = (state) => state.adminUserProfile.data

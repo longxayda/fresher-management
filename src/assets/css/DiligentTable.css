@@ -1,0 +1,66 @@
+.diligentTable-container {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3!important;
+    padding-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0 5px 25px 0 rgba(182, 184, 186, 0.4);
+    position: relative;
+  }
+  
+  .diligentTable-tableContainer {
+    max-height: 83vh !important;
+    overflow: scroll;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .diligentTable-tableContainer::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+    height: 5px;
+  }
+  
+  .diligentTable-tableContainer::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(134, 135, 137, 0.5);
+    box-shadow: 0 0 1px rgba(134, 135, 137, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(6, 66, 247, 0.5);
+  }
+  
+  .diligentTable-table {
+    border-collapse: separate;
+    margin-bottom: 0 !important;
+  }
+  
+  .diligentTable-thead {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+  
+  .diligentTable-pointer {
+    cursor: pointer;
+  }
+  
+  .diligentTable-loaderContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 127, 127, 0.5);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .diligentTable-noDataFound {
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 1200px;
+  }

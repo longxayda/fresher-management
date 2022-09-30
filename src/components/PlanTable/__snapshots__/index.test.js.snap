@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test PlanTable snapshot 1`] = `
+Array [
+  <div
+    className="d-flex align-items-center justify-content-end pb-3"
+  >
+    <div
+      className="mr-3"
+    >
+      <label
+        className="mb-0"
+      >
+        Search: 
+      </label>
+    </div>
+    <div
+      className="mr-3"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        type="search"
+        value=""
+      />
+    </div>
+  </div>,
+  <style>
+    
+      td,tr,th{
+        text-align: center;
+      }
+      
+  </style>,
+  <table
+    className="table table-hover"
+    role="table"
+  >
+    <thead>
+      <tr
+        role="row"
+      >
+        <th
+          className="plan-details-header"
+          colSpan={1}
+          role="columnheader"
+        >
+          <div
+            className="heading"
+            style={
+              Object {
+                "display": "flex",
+                "fontSize": "16px",
+                "fontWeight": "600",
+                "justifyContent": "center",
+              }
+            }
+          >
+            Test
+          </div>
+          <div>
+            <div
+              className="mb-0"
+            />
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      role="rowgroup"
+    >
+      <tr
+        className="plan-details-data"
+        role="row"
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <td
+          role="cell"
+        >
+          test 1
+        </td>
+      </tr>
+      <tr
+        className="plan-details-data"
+        role="row"
+        style={
+          Object {
+            "backgroundColor": "white",
+          }
+        }
+      >
+        <td
+          role="cell"
+        >
+          test 2
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <div
+    className=" d-flex align-items-center justify-content-center"
+  >
+    <button
+      className="btn-fill mx-1 btn btn-primary"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      &lt;&lt;
+    </button>
+    <button
+      className="btn-fill mx-1 btn btn-primary"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      &lt;
+    </button>
+    <button
+      className="btn-fill mx-1 btn btn-primary"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      &gt;
+    </button>
+    <button
+      className="btn-fill mx-1 btn btn-primary"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      &gt;&gt;
+    </button>
+    <span
+      className=" mx-3"
+    >
+      Page
+      <strong>
+        1
+         of 
+        1
+      </strong>
+    </span>
+    <span
+      className="mx-3"
+    >
+       Go to page: 
+    </span>
+    <input
+      className="mr-3 form-control"
+      defaultValue={1}
+      onChange={[Function]}
+      style={
+        Object {
+          "width": "100px",
+        }
+      }
+      type="number"
+    />
+    <div
+      className=""
+    >
+      <select
+        className="form-control"
+        onChange={[Function]}
+        value={10}
+      >
+        <option
+          value={10}
+        >
+          Show 
+          10
+        </option>
+        <option
+          value={20}
+        >
+          Show 
+          20
+        </option>
+        <option
+          value={30}
+        >
+          Show 
+          30
+        </option>
+        <option
+          value={40}
+        >
+          Show 
+          40
+        </option>
+        <option
+          value={50}
+        >
+          Show 
+          50
+        </option>
+      </select>
+    </div>
+  </div>,
+  <br />,
+]
+`;

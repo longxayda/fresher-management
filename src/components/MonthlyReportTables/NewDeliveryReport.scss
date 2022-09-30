@@ -1,0 +1,150 @@
+.newDeliveryTable {
+    .dropdown {
+        position: absolute;
+        top: 211px;
+        left: 0px;
+        z-index: 1000;
+        .dropdown-toggle {
+            background: #9a9a9a;
+            border: 2px solid #9a9a9a;
+            height: 30px;
+            outline: none;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .dropdown-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .dropdown-menu {
+        max-height: 300px;
+        overflow-y: scroll;
+        padding: 10px 0;
+    }
+    .table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        position: relative;
+    }
+    .table thead {
+        border-top: 1px solid #ddd;
+        // background-color: #1d96b2;
+        th {
+            font-weight: bold;
+        }
+    }
+    .table td,
+    .table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center !important;
+    }
+    .table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center !important;
+    }
+    .groupBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+    .searchTable {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 30px;
+        position: absolute;
+        right: 10px;
+        top: 112px;
+    }
+    .search {
+        background-color: rgba(22, 24, 35, 0.06);
+        width: 250px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 1.5px solid transparent;
+        border-radius: 8px;
+        &:focus-within {
+            border-color: rgba(22, 24, 35, 0.2);
+        }
+    }
+    .searchInput {
+        flex: 1;
+        outline: none;
+        border: none;
+        line-height: 40px;
+        padding-left: 10px;
+        background-color: transparent;
+    }
+    .searchBtn {
+        width: 50px;
+        height: 100%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 1.8rem;
+        color: rgba(22, 24, 35, 0.094);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(22, 24, 35, 0.03);
+        }
+        &:active {
+            background-color: rgba(22, 24, 35, 0.06);
+        }
+    }
+    .actions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .columnHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 8px;
+        .iconFilter {
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    .popperDate {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 250px;
+        min-height: 150px;
+        background-color: rgb(247, 247, 247);
+        z-index: 100;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        padding: 10px 0;
+        .box {
+            border-top: 2px solid #2196f3;
+            width: 100%;
+            margin-top: 10px;
+            padding: 20px;
+            .datePicker {
+                width: 100%;
+                padding: 5px;
+                border-radius: 8px;
+                outline: none;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+}

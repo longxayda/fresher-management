@@ -1,0 +1,62 @@
+.table {
+    background-color: white;
+    border-radius: 10px;
+    table {
+        width: 100%;
+    }
+    th,
+    td {
+        vertical-align: middle;
+    }
+    th {
+        text-align: center;
+        padding: 10px;
+        font-weight: 600;
+    }
+    td {
+        text-align: center;
+        padding: 10px;
+    }
+}
+.searchLabel {
+    font-weight: bold;
+}
+
+.searchBox {
+    margin-left: 6px;
+    width: 200px;
+}
+
+.deleteBtn {
+    font-size: 12px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+.saveBtn {
+    margin: 6px 6px 0 6px;
+    font-size: 14px;
+    padding: 7px 14px;
+}
+
+.exportBtn {
+    margin: 6px 6px 0 6px;
+    font-size: 14px;
+    padding: 7px 14px;
+}
+
+.returnBtn {
+    margin: 6px 6px 0 6px;
+    font-size: 14px;
+    padding: 7px 14px;
+}
+
+.pageNavi-btn {
+    font-size: 10px;
+    margin: 2px;
+    padding: 7px 14px;
+}
+
+.modalTitle {
+    background-color: #fff;
+}
